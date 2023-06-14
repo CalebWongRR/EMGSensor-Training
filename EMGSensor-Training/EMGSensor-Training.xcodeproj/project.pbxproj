@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58B3D3FE2A3966D6007F7943 /* SliderControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B3D3FD2A3966D6007F7943 /* SliderControl.swift */; };
+		58B3D4002A399ED0007F7943 /* CheckBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B3D3FF2A399ED0007F7943 /* CheckBoxView.swift */; };
+		58C6D8282A36AC61001A8F5A /* EMGSensor_TrainingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C6D8272A36AC61001A8F5A /* EMGSensor_TrainingApp.swift */; };
+		58C6D82A2A36AC61001A8F5A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C6D8292A36AC61001A8F5A /* ContentView.swift */; };
+		58C6D82C2A36AC61001A8F5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58C6D82B2A36AC61001A8F5A /* Assets.xcassets */; };
+		58C6D8302A36AC61001A8F5A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58C6D82F2A36AC61001A8F5A /* Preview Assets.xcassets */; };
+		58C6D8402A36CF49001A8F5A /* ConnectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C6D83F2A36CF49001A8F5A /* ConnectionView.swift */; };
+		58C6D8422A36D339001A8F5A /* AppNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C6D8412A36D339001A8F5A /* AppNameView.swift */; };
+		58C6D8452A36EB9D001A8F5A /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C6D8442A36EB9D001A8F5A /* Enums.swift */; };
+		58C6D84D2A36F360001A8F5A /* EmgsSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 58C6D84C2A36F360001A8F5A /* EmgsSDK */; };
+		58C6D8502A36F3BD001A8F5A /* NordicDFU in Frameworks */ = {isa = PBXBuildFile; productRef = 58C6D84F2A36F3BD001A8F5A /* NordicDFU */; };
+		58C6D8532A36F650001A8F5A /* SubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C6D8522A36F650001A8F5A /* SubView.swift */; };
+		58C6D8552A36FE84001A8F5A /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C6D8542A36FE84001A8F5A /* ButtonView.swift */; };
+		58C6D8572A370889001A8F5A /* MonitorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C6D8562A370889001A8F5A /* MonitorView.swift */; };
+		58C6D8592A37096A001A8F5A /* UFOGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C6D8582A37096A001A8F5A /* UFOGameView.swift */; };
+		58C6D85B2A370974001A8F5A /* HandTrainingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C6D85A2A370974001A8F5A /* HandTrainingView.swift */; };
+		58C6D85D2A3709B9001A8F5A /* ModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C6D85C2A3709B9001A8F5A /* ModeView.swift */; };
+		58C6D85F2A370AF2001A8F5A /* ButtonFixedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C6D85E2A370AF2001A8F5A /* ButtonFixedView.swift */; };
+		58C6D8622A370D0B001A8F5A /* EmgsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C6D8612A370D0B001A8F5A /* EmgsView.swift */; };
+		58C9F82D2A37F51500A1FD91 /* BatteryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C9F82C2A37F51500A1FD91 /* BatteryView.swift */; };
+		58C9F82F2A38086D00A1FD91 /* CounterCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C9F82E2A38086D00A1FD91 /* CounterCircleView.swift */; };
+		58C9F8352A38212500A1FD91 /* SliderRectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C9F8342A38212500A1FD91 /* SliderRectangleView.swift */; };
+		58C9F8372A386A6300A1FD91 /* SliderRectanglePlusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C9F8362A386A6300A1FD91 /* SliderRectanglePlusView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		58B3D3FD2A3966D6007F7943 /* SliderControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderControl.swift; sourceTree = "<group>"; };
+		58B3D3FF2A399ED0007F7943 /* CheckBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxView.swift; sourceTree = "<group>"; };
+		58C6D8242A36AC61001A8F5A /* EMGSensor-Training.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EMGSensor-Training.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58C6D8272A36AC61001A8F5A /* EMGSensor_TrainingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EMGSensor_TrainingApp.swift; sourceTree = "<group>"; };
+		58C6D8292A36AC61001A8F5A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		58C6D82B2A36AC61001A8F5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		58C6D82D2A36AC61001A8F5A /* EMGSensor_Training.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EMGSensor_Training.entitlements; sourceTree = "<group>"; };
+		58C6D82F2A36AC61001A8F5A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		58C6D83F2A36CF49001A8F5A /* ConnectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionView.swift; sourceTree = "<group>"; };
+		58C6D8412A36D339001A8F5A /* AppNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNameView.swift; sourceTree = "<group>"; };
+		58C6D8442A36EB9D001A8F5A /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		58C6D8522A36F650001A8F5A /* SubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubView.swift; sourceTree = "<group>"; };
+		58C6D8542A36FE84001A8F5A /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		58C6D8562A370889001A8F5A /* MonitorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonitorView.swift; sourceTree = "<group>"; };
+		58C6D8582A37096A001A8F5A /* UFOGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UFOGameView.swift; sourceTree = "<group>"; };
+		58C6D85A2A370974001A8F5A /* HandTrainingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandTrainingView.swift; sourceTree = "<group>"; };
+		58C6D85C2A3709B9001A8F5A /* ModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeView.swift; sourceTree = "<group>"; };
+		58C6D85E2A370AF2001A8F5A /* ButtonFixedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonFixedView.swift; sourceTree = "<group>"; };
+		58C6D8612A370D0B001A8F5A /* EmgsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmgsView.swift; sourceTree = "<group>"; };
+		58C9F82C2A37F51500A1FD91 /* BatteryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryView.swift; sourceTree = "<group>"; };
+		58C9F82E2A38086D00A1FD91 /* CounterCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterCircleView.swift; sourceTree = "<group>"; };
+		58C9F8342A38212500A1FD91 /* SliderRectangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderRectangleView.swift; sourceTree = "<group>"; };
+		58C9F8362A386A6300A1FD91 /* SliderRectanglePlusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderRectanglePlusView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58C6D8212A36AC61001A8F5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58C6D84D2A36F360001A8F5A /* EmgsSDK in Frameworks */,
+				58C6D8502A36F3BD001A8F5A /* NordicDFU in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58C6D81B2A36AC61001A8F5A = {
+			isa = PBXGroup;
+			children = (
+				58C6D8262A36AC61001A8F5A /* EMGSensor-Training */,
+				58C6D8252A36AC61001A8F5A /* Products */,
+				58C6D8462A36F33C001A8F5A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		58C6D8252A36AC61001A8F5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58C6D8242A36AC61001A8F5A /* EMGSensor-Training.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58C6D8262A36AC61001A8F5A /* EMGSensor-Training */ = {
+			isa = PBXGroup;
+			children = (
+				58C6D8272A36AC61001A8F5A /* EMGSensor_TrainingApp.swift */,
+				58C6D83E2A36CF11001A8F5A /* Views */,
+				58C6D8512A36F61F001A8F5A /* Components */,
+				58C6D8432A36EB1A001A8F5A /* Theme */,
+				58C6D82B2A36AC61001A8F5A /* Assets.xcassets */,
+				58C6D82D2A36AC61001A8F5A /* EMGSensor_Training.entitlements */,
+				58C6D82E2A36AC61001A8F5A /* Preview Content */,
+			);
+			path = "EMGSensor-Training";
+			sourceTree = "<group>";
+		};
+		58C6D82E2A36AC61001A8F5A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				58C6D82F2A36AC61001A8F5A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		58C6D83E2A36CF11001A8F5A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				58C6D8292A36AC61001A8F5A /* ContentView.swift */,
+				58C6D83F2A36CF49001A8F5A /* ConnectionView.swift */,
+				58C6D85C2A3709B9001A8F5A /* ModeView.swift */,
+				58C6D8562A370889001A8F5A /* MonitorView.swift */,
+				58C6D8582A37096A001A8F5A /* UFOGameView.swift */,
+				58C6D85A2A370974001A8F5A /* HandTrainingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		58C6D8432A36EB1A001A8F5A /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				58C6D8442A36EB9D001A8F5A /* Enums.swift */,
+				58B3D3FD2A3966D6007F7943 /* SliderControl.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		58C6D8462A36F33C001A8F5A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		58C6D8512A36F61F001A8F5A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				58C6D8412A36D339001A8F5A /* AppNameView.swift */,
+				58C6D8522A36F650001A8F5A /* SubView.swift */,
+				58C6D8542A36FE84001A8F5A /* ButtonView.swift */,
+				58C6D85E2A370AF2001A8F5A /* ButtonFixedView.swift */,
+				58C6D8612A370D0B001A8F5A /* EmgsView.swift */,
+				58C9F82C2A37F51500A1FD91 /* BatteryView.swift */,
+				58C9F8342A38212500A1FD91 /* SliderRectangleView.swift */,
+				58C9F8362A386A6300A1FD91 /* SliderRectanglePlusView.swift */,
+				58C9F82E2A38086D00A1FD91 /* CounterCircleView.swift */,
+				58B3D3FF2A399ED0007F7943 /* CheckBoxView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58C6D8232A36AC61001A8F5A /* EMGSensor-Training */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58C6D8332A36AC61001A8F5A /* Build configuration list for PBXNativeTarget "EMGSensor-Training" */;
+			buildPhases = (
+				58C6D8202A36AC61001A8F5A /* Sources */,
+				58C6D8212A36AC61001A8F5A /* Frameworks */,
+				58C6D8222A36AC61001A8F5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EMGSensor-Training";
+			packageProductDependencies = (
+				58C6D84C2A36F360001A8F5A /* EmgsSDK */,
+				58C6D84F2A36F3BD001A8F5A /* NordicDFU */,
+			);
+			productName = "EMGSensor-Training";
+			productReference = 58C6D8242A36AC61001A8F5A /* EMGSensor-Training.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58C6D81C2A36AC61001A8F5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					58C6D8232A36AC61001A8F5A = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 58C6D81F2A36AC61001A8F5A /* Build configuration list for PBXProject "EMGSensor-Training" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 58C6D81B2A36AC61001A8F5A;
+			packageReferences = (
+				58C6D84B2A36F360001A8F5A /* XCRemoteSwiftPackageReference "EmgsSDK" */,
+				58C6D84E2A36F3BD001A8F5A /* XCRemoteSwiftPackageReference "IOS-DFU-Library" */,
+			);
+			productRefGroup = 58C6D8252A36AC61001A8F5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58C6D8232A36AC61001A8F5A /* EMGSensor-Training */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58C6D8222A36AC61001A8F5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58C6D8302A36AC61001A8F5A /* Preview Assets.xcassets in Resources */,
+				58C6D82C2A36AC61001A8F5A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58C6D8202A36AC61001A8F5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58C9F82F2A38086D00A1FD91 /* CounterCircleView.swift in Sources */,
+				58C6D8402A36CF49001A8F5A /* ConnectionView.swift in Sources */,
+				58C9F82D2A37F51500A1FD91 /* BatteryView.swift in Sources */,
+				58C6D8592A37096A001A8F5A /* UFOGameView.swift in Sources */,
+				58C6D8572A370889001A8F5A /* MonitorView.swift in Sources */,
+				58C6D85F2A370AF2001A8F5A /* ButtonFixedView.swift in Sources */,
+				58C6D82A2A36AC61001A8F5A /* ContentView.swift in Sources */,
+				58C9F8352A38212500A1FD91 /* SliderRectangleView.swift in Sources */,
+				58C6D8452A36EB9D001A8F5A /* Enums.swift in Sources */,
+				58C6D85B2A370974001A8F5A /* HandTrainingView.swift in Sources */,
+				58C6D8532A36F650001A8F5A /* SubView.swift in Sources */,
+				58C9F8372A386A6300A1FD91 /* SliderRectanglePlusView.swift in Sources */,
+				58C6D8282A36AC61001A8F5A /* EMGSensor_TrainingApp.swift in Sources */,
+				58C6D8622A370D0B001A8F5A /* EmgsView.swift in Sources */,
+				58C6D8422A36D339001A8F5A /* AppNameView.swift in Sources */,
+				58C6D85D2A3709B9001A8F5A /* ModeView.swift in Sources */,
+				58B3D4002A399ED0007F7943 /* CheckBoxView.swift in Sources */,
+				58B3D3FE2A3966D6007F7943 /* SliderControl.swift in Sources */,
+				58C6D8552A36FE84001A8F5A /* ButtonView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		58C6D8312A36AC61001A8F5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		58C6D8322A36AC61001A8F5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		58C6D8342A36AC61001A8F5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "EMGSensor-Training/EMGSensor_Training.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EMGSensor-Training/Preview Content\"";
+				DEVELOPMENT_TEAM = 8XFDM32Q7V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Our app uses bluetooth to find, connect and transfer data between different devices";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rehab-robotics.EMGSensor-Training";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		58C6D8352A36AC61001A8F5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "EMGSensor-Training/EMGSensor_Training.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EMGSensor-Training/Preview Content\"";
+				DEVELOPMENT_TEAM = 8XFDM32Q7V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Our app uses bluetooth to find, connect and transfer data between different devices";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rehab-robotics.EMGSensor-Training";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58C6D81F2A36AC61001A8F5A /* Build configuration list for PBXProject "EMGSensor-Training" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58C6D8312A36AC61001A8F5A /* Debug */,
+				58C6D8322A36AC61001A8F5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58C6D8332A36AC61001A8F5A /* Build configuration list for PBXNativeTarget "EMGSensor-Training" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58C6D8342A36AC61001A8F5A /* Debug */,
+				58C6D8352A36AC61001A8F5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		58C6D84B2A36F360001A8F5A /* XCRemoteSwiftPackageReference "EmgsSDK" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CalebWongRR/EmgsSDK";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		58C6D84E2A36F3BD001A8F5A /* XCRemoteSwiftPackageReference "IOS-DFU-Library" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/NordicSemiconductor/IOS-DFU-Library";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		58C6D84C2A36F360001A8F5A /* EmgsSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 58C6D84B2A36F360001A8F5A /* XCRemoteSwiftPackageReference "EmgsSDK" */;
+			productName = EmgsSDK;
+		};
+		58C6D84F2A36F3BD001A8F5A /* NordicDFU */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 58C6D84E2A36F3BD001A8F5A /* XCRemoteSwiftPackageReference "IOS-DFU-Library" */;
+			productName = NordicDFU;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 58C6D81C2A36AC61001A8F5A /* Project object */;
+}
